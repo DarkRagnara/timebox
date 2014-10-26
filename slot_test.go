@@ -24,7 +24,7 @@ func TestEndAndDuration(t *testing.T) {
 	}
 }
 
-func TestContains(t *testing.T) {
+func TestSlotContains(t *testing.T) {
 	start := time.Now()
 	dur := 30 * time.Second
 	tests := []struct {
