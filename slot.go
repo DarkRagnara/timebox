@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-//A slot is a tuple of a name, a start time and a duration.
+//Slot is a tuple of a name, a start time and a duration.
 type Slot struct {
 	name  string
 	start time.Time

@@ -10,7 +10,7 @@ func TestAdd(t *testing.T) {
 	slot := NewSlot("Test", time.Now(), 15*time.Second)
 	set.Add(slot)
 	if len(set.slots) != 1 || set.slots[0] != slot {
-		t.Error("Adding a slot to a set failed: Set %v", set)
+		t.Errorf("Adding a slot to a set failed: Set %v", set)
 	}
 }
 

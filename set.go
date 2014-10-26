@@ -4,7 +4,7 @@ import (
 	"time"
 )
 
-//A set is a container with zero or more slots in it. Slots in a set may overlap each other.
+//Set is a container with zero or more slots in it. Slots in a set may overlap each other.
 //You can use the set to calculate lanes from the slots inside.
 type Set struct {
 	slots []*Slot
