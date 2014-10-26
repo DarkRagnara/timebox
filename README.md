@@ -1,0 +1,1 @@
+[![GoDoc](https://godoc.org/bitbucket.org/Ragnara/timebox?status.svg)](https://godoc.org/bitbucket.org/Ragnara/timebox)
